@@ -1,0 +1,30 @@
+/* @import "tailwindcss"; */
+
+.navbar {
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  background-color: red;
+}
+
+.content {
+  height: calc(100vh - (40px));
+  background-color: rgb(23, 207, 204);
+  width: 100vw;
+  flex-direction: row;
+  display: flex;
+}
+
+.sidebar {
+  height: calc(100vh - (40px));
+  width: 300px;
+  background-color: saddlebrown;
+}
+
+.main-content {
+  height: calc(100vh - (40px));
+  background-color: blueviolet;
+  width: 100vw;
+  display: flex;
+  padding:64px;
+} 
